@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-p52kfkVR.js";function t(r){return o.jsx("svg",{"aria-hidden":"true",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:1.5,...r,children:o.jsx("path",{d:"M9 18l6-6-6-6"})})}t.__docgenInfo={description:"",methods:[],displayName:"ArrowRightIcon"};export{t as A};

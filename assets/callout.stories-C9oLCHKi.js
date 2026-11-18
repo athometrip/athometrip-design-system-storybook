@@ -1,0 +1,8 @@
+import{j as r}from"./jsx-runtime-p52kfkVR.js";import{C as t}from"./callout-F85kl1iu.js";import"./iframe-DbL7boiR.js";import"./preload-helper-Dp1pzeXC.js";import"./tw-BbKhTrVW.js";import"./infoIcon-CE27M_k3.js";const h={title:"Feedback/Callout",component:t,args:{title:"예약 확정 후에는 취소할 수 없어요",children:"이용일 3일 전까지만 변경할 수 있어요"},parameters:{docs:{description:{component:'주황색 안내 박스. 아이콘 + 제목 한 줄, 아래 설명 한 줄.\n\n- role 없음(정적 안내). 동적으로 나타나면 사용처가 `role="status"`를 넘긴다\n- variant 없음 (D20) — 사이트에 주황 하나뿐\n- 디자이너 확인 필요 (Q9): 주황 3색(`#FFF4E6`·`#7A3A03`·`#D96705`)이 팔레트에 없다.\n  BottomSheet 안내 데모의 제목 없는 변형(`.ns-warn`)은 포함하지 않았다'}}}},o={},e={render:()=>r.jsxs("div",{className:"flex w-[332px] max-w-full flex-col gap-4",children:[r.jsx(t,{title:"예약 확정 후에는 취소할 수 없어요",children:"이용일 3일 전까지만 변경할 수 있어요"}),r.jsxs(t,{title:"아이콘 없음",icon:null,children:["icon=","{null}","이면 설명도 들여쓰지 않는다"]})]})};var a,l,s;o.parameters={...o.parameters,docs:{...(a=o.parameters)==null?void 0:a.docs,source:{originalSource:"{}",...(s=(l=o.parameters)==null?void 0:l.docs)==null?void 0:s.source}}};var n,c,i,m,p;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  render: () => <div className="flex w-[332px] max-w-full flex-col gap-4">
+      <Callout title="예약 확정 후에는 취소할 수 없어요">이용일 3일 전까지만 변경할 수 있어요</Callout>
+      <Callout title="아이콘 없음" icon={null}>
+        icon={'{null}'}이면 설명도 들여쓰지 않는다
+      </Callout>
+    </div>
+}`,...(i=(c=e.parameters)==null?void 0:c.docs)==null?void 0:i.source},description:{story:"사이트 #callout 데모와 같은 구성 (MO 332×60은 데모 크기)",...(p=(m=e.parameters)==null?void 0:m.docs)==null?void 0:p.description}}};const j=["Playground","SiteDemo"];export{o as Playground,e as SiteDemo,j as __namedExportsOrder,h as default};

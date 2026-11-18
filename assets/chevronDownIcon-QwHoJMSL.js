@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-p52kfkVR.js";function n(e){return o.jsx("svg",{"aria-hidden":"true",width:"20",height:"20",viewBox:"0 0 20 20",fill:"none",stroke:"currentColor",...e,children:o.jsx("path",{d:"M15.4167 7.08341L9.58335 12.9167L3.75002 7.08341",strokeWidth:1.5,strokeLinecap:"square",vectorEffect:"non-scaling-stroke"})})}n.__docgenInfo={description:`사이트 icons/checkout/chevron-20.svg 경로 (chevron-16은 같은 모양의 축소판).
+크기는 className(h-4 w-4 / h-5 w-5)으로 정하고, 선 굵기는 크기와 상관없이 1.5px로 유지한다`,methods:[],displayName:"ChevronDownIcon"};export{n as C};

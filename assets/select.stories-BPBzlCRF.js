@@ -1,0 +1,23 @@
+import{j as e}from"./jsx-runtime-p52kfkVR.js";import{r as b}from"./iframe-DbL7boiR.js";import{t as $}from"./tw-BbKhTrVW.js";import{C as E}from"./chevronDownIcon-QwHoJMSL.js";import{C as A}from"./checkCircleIcon-Cx91CdlU.js";import"./preload-helper-Dp1pzeXC.js";const _={medium:"h-10 px-3 ds-text-body-4 text-ds-warm-900",large:"h-12 px-4 text-[15px] font-normal leading-[20px] text-ds-text-primary"},P={medium:"gap-3",large:"gap-6"},q={medium:"flex-1 font-medium",large:"flex-initial ds-text-label-1"},I={medium:"-ml-1 ds-text-caption-2",large:"-ml-1 ds-text-body-3"},R={medium:"h-4 w-4",large:"h-5 w-5"},D=$.button`
+  flex w-full items-center justify-between
+  rounded-ds-xs border border-ds-border-default text-left font-[inherit]
+  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ds-text-primary
+  ${({$size:a})=>_[a]}
+  ${({$size:a,$applied:l})=>l?P[a]:""}
+`,i=a=>a!=null&&a!==!1&&a!=="",s=b.forwardRef(function({size:l="medium",placeholder:S,value:o,meta:d,leading:n,type:N="button","aria-haspopup":j="dialog",...y},C){const c=i(o);return e.jsxs(D,{ref:C,type:N,"aria-haspopup":j,$size:l,$applied:c,...y,children:[c?e.jsxs("span",{className:"flex min-w-0 flex-1 items-center gap-2",children:[i(n)&&e.jsx("span",{className:"flex shrink-0",children:n}),e.jsx("span",{className:`min-w-0 truncate ${q[l]}`,children:o}),i(d)&&e.jsx("span",{className:`shrink-0 whitespace-nowrap text-ds-warm-600 ${I[l]}`,children:d})]}):e.jsx("span",{className:"min-w-0 truncate",children:S}),e.jsx(E,{className:`shrink-0 text-ds-text-secondary ${R[l]}`})]})});s.displayName="Select";s.__docgenInfo={description:`누르면 목록(BottomSheet 등)을 여는 트리거 버튼. 목록 UI는 사용처가 연다 (D10).
+네이티브 <select>가 아니다`,methods:[],displayName:"Select",props:{size:{required:!1,tsType:{name:"union",raw:"'medium' | 'large'",elements:[{name:"literal",value:"'medium'"},{name:"literal",value:"'large'"}]},description:"기본 'medium'(MO). 'large'(PC)",defaultValue:{value:"'medium'",computed:!1}},placeholder:{required:!1,tsType:{name:"ReactNode"},description:"선택 전 안내 문구"},value:{required:!1,tsType:{name:"ReactNode"},description:"선택된 표시 (쿠폰명). 길면 한 줄 말줄임"},meta:{required:!1,tsType:{name:"ReactNode"},description:"보조 표시 (할인 금액 '-$3.5')"},leading:{required:!1,tsType:{name:"ReactNode"},description:"선택된 표시 앞 아이콘 (체크 등)"},type:{defaultValue:{value:"'button'",computed:!1},required:!1},"aria-haspopup":{defaultValue:{value:"'dialog'",computed:!1},required:!1}},composes:["Omit"]};const z={title:"Input/Select",component:s,args:{placeholder:"쿠폰 사용"},decorators:[a=>e.jsx("div",{className:"max-w-[600px]",children:a()})],parameters:{docs:{description:{component:"테두리형 선택 상자 (장바구니·결제의 쿠폰 선택). 네이티브 `<select>`가 아니라\n누르면 목록(BottomSheet 등)을 여는 **트리거 버튼**이다. 목록은 사용처가 연다 (D10).\n가이드라인: 쿠폰명이 길면 한 줄 말줄임."}}}},r={},m=e.jsx(A,{className:"h-4 w-4 text-ds-text-primary"}),t={render:()=>e.jsxs("div",{className:"flex flex-col gap-6",children:[e.jsx("div",{className:"w-[332px] max-w-full",children:e.jsx(s,{placeholder:"쿠폰 사용"})}),e.jsx("div",{className:"w-[332px] max-w-full",children:e.jsx(s,{placeholder:"쿠폰 사용",leading:m,value:"추석 황금연휴 뉴욕 여행 슈퍼위크 할인 추석 황금연휴 뉴욕 여행 슈퍼위크 할인",meta:"-$3.5"})}),e.jsx("div",{className:"w-[600px] max-w-full",children:e.jsx(s,{size:"large",placeholder:"쿠폰 사용"})}),e.jsx("div",{className:"w-[600px] max-w-full",children:e.jsx(s,{size:"large",placeholder:"쿠폰 사용",leading:m,value:"선착순 장바구니 100%",meta:"-$8.5"})})]})};var p,u,x;r.parameters={...r.parameters,docs:{...(p=r.parameters)==null?void 0:p.docs,source:{originalSource:"{}",...(x=(u=r.parameters)==null?void 0:u.docs)==null?void 0:x.source}}};var f,h,w,v,g;t.parameters={...t.parameters,docs:{...(f=t.parameters)==null?void 0:f.docs,source:{originalSource:`{
+  render: () => <div className="flex flex-col gap-6">
+      <div className="w-[332px] max-w-full">
+        <Select placeholder="쿠폰 사용" />
+      </div>
+      <div className="w-[332px] max-w-full">
+        <Select placeholder="쿠폰 사용" leading={CHECK} value="추석 황금연휴 뉴욕 여행 슈퍼위크 할인 추석 황금연휴 뉴욕 여행 슈퍼위크 할인" meta="-$3.5" />
+      </div>
+      <div className="w-[600px] max-w-full">
+        <Select size="large" placeholder="쿠폰 사용" />
+      </div>
+      <div className="w-[600px] max-w-full">
+        <Select size="large" placeholder="쿠폰 사용" leading={CHECK} value="선착순 장바구니 100%" meta="-$8.5" />
+      </div>
+    </div>
+}`,...(w=(h=t.parameters)==null?void 0:h.docs)==null?void 0:w.source},description:{story:"사이트 Select 데모(MO 선택 전 / 적용 / PC 선택 전 / 적용)와 같은 구성",...(g=(v=t.parameters)==null?void 0:v.docs)==null?void 0:g.description}}};const K=["Playground","SiteDemo"];export{r as Playground,t as SiteDemo,K as __namedExportsOrder,z as default};

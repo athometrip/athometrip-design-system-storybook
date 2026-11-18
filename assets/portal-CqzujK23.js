@@ -1,0 +1,1 @@
+import{r as o}from"./iframe-DbL7boiR.js";import{r}from"./index-B7wpOJHf.js";function s(){const[t,e]=o.useState(!1);return o.useEffect(()=>e(!0),[]),t}function c({children:t,container:e}){return s()?r.createPortal(t,e??document.body):null}export{c as P};

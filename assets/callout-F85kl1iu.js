@@ -1,0 +1,5 @@
+import{j as e}from"./jsx-runtime-p52kfkVR.js";import{r as p}from"./iframe-DbL7boiR.js";import{t}from"./tw-BbKhTrVW.js";import{I as c}from"./infoIcon-CE27M_k3.js";const m=t.div`flex flex-col gap-1 rounded-ds-xs bg-[#FFF4E6] p-3`,x=t.div`flex items-center gap-1.5 ds-text-label-3 text-[#7A3A03]`,u=t.p`
+  ds-text-caption-3 text-[#D96705]
+  ${({$indent:o})=>o?"pl-[22px]":""}
+`,a=p.forwardRef(function({title:i,children:s,icon:n,...l},d){const r=n===void 0?e.jsx(c,{className:"h-4 w-4 shrink-0"}):n;return e.jsxs(m,{ref:d,...l,children:[e.jsxs(x,{children:[r,e.jsx("span",{children:i})]}),s!==void 0&&e.jsx(u,{$indent:r!==null,children:s})]})});a.displayName="Callout";a.__docgenInfo={description:`주황색 안내 박스. role 없음(정적 안내) — 동적으로 나타나면 사용처가 role="status"를 넘긴다.
+variant 없음 (D20)`,methods:[],displayName:"Callout",props:{title:{required:!0,tsType:{name:"ReactNode"},description:"제목 한 줄 (임시: Q9 — 제목 없는 변형 `.ns-warn`은 포함하지 않았다)"},children:{required:!1,tsType:{name:"ReactNode"},description:"설명"},icon:{required:!1,tsType:{name:"union",raw:"ReactNode | null",elements:[{name:"ReactNode"},{name:"null"}]},description:"기본: 정보 아이콘 16. null이면 숨긴다"}},composes:["Omit"]};export{a as C};

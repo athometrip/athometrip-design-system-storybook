@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-p52kfkVR.js";const d=({href:e,className:r,children:a,"aria-current":n})=>t.jsx("a",{href:e,className:r,"aria-current":n,children:a});d.__docgenInfo={description:"",methods:[],displayName:"defaultRenderLink"};export{d};
